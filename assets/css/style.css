@@ -1623,6 +1623,11 @@ h6 {
   margin-top: 1.25rem;
 }
 
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
 .mt-7 {
   margin-top: 1.75rem;
 }
@@ -10954,10 +10959,20 @@ video {
 /* ---------------Product Css------------------ */
 .product-box {}
 
+.product-box .group{
+  border-radius: 12px;
+}
+
 .product-box:hover img {
   transform: scale(1.1);
 }
-.product_image-div {}
+.product_image-div {
+  border-radius: 12px 12px 0px 0px ;
+}
+
+.product-text-div{
+  padding: 10px  ;
+}
 
 
 /* ---------------Products css------------------ */
